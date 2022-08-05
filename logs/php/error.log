@@ -1,0 +1,171 @@
+[22-Jul-2022 01:35:58 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[22-Jul-2022 01:35:59 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[25-Jul-2022 14:16:38 UTC] Sync process for Gutenberg Blocks has started.
+[25-Jul-2022 14:16:38 UTC] CATEGORY:Importing categories..
+[25-Jul-2022 14:16:38 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[25-Jul-2022 14:16:38 UTC] CATEGORY:Completed category import.
+[25-Jul-2022 14:16:38 UTC] BLOCK: Getting Total Blocks
+[25-Jul-2022 14:16:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[25-Jul-2022 14:16:38 UTC] BLOCK: Requests count 4
+[25-Jul-2022 14:16:38 UTC] BLOCK: Importing request 1 ..
+[25-Jul-2022 14:16:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[25-Jul-2022 14:16:39 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[25-Jul-2022 14:16:39 UTC] BLOCK: Completed request 1
+[25-Jul-2022 14:16:39 UTC] BLOCK: Importing request 2 ..
+[25-Jul-2022 14:16:39 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[25-Jul-2022 14:16:39 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[25-Jul-2022 14:16:39 UTC] BLOCK: Completed request 2
+[25-Jul-2022 14:16:39 UTC] BLOCK: Importing request 3 ..
+[25-Jul-2022 14:16:39 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[25-Jul-2022 14:16:39 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[25-Jul-2022 14:16:39 UTC] BLOCK: Completed request 3
+[25-Jul-2022 14:16:39 UTC] BLOCK: Importing request 4 ..
+[25-Jul-2022 14:16:39 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[25-Jul-2022 14:16:41 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[25-Jul-2022 14:16:41 UTC] BLOCK: Completed request 4
+[25-Jul-2022 14:16:41 UTC] SITE: Getting Total Sites
+[25-Jul-2022 14:16:41 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[25-Jul-2022 14:16:41 UTC] SITE: Request count 2
+[25-Jul-2022 14:16:41 UTC] SITE: Importing request 1 ..
+[25-Jul-2022 14:16:41 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[25-Jul-2022 14:16:42 UTC] SITE: Storing in option ast-block-templates-sites-1
+[25-Jul-2022 14:16:42 UTC] SITE: Completed request 1
+[25-Jul-2022 14:16:42 UTC] SITE: Importing request 2 ..
+[25-Jul-2022 14:16:42 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[25-Jul-2022 14:16:42 UTC] SITE: Storing in option ast-block-templates-sites-2
+[25-Jul-2022 14:16:42 UTC] SITE: Completed request 2
+[25-Jul-2022 14:16:42 UTC] Sync process for Gutenberg Blocks is done.
+[27-Jul-2022 05:12:20 UTC] Sync process for Gutenberg Blocks has started.
+[27-Jul-2022 05:12:20 UTC] CATEGORY:Importing categories..
+[27-Jul-2022 05:12:20 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[27-Jul-2022 05:12:20 UTC] CATEGORY:Completed category import.
+[27-Jul-2022 05:12:20 UTC] BLOCK: Getting Total Blocks
+[27-Jul-2022 05:12:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[27-Jul-2022 05:12:20 UTC] BLOCK: Requests count 4
+[27-Jul-2022 05:12:20 UTC] BLOCK: Importing request 1 ..
+[27-Jul-2022 05:12:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[27-Jul-2022 05:12:20 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[27-Jul-2022 05:12:20 UTC] BLOCK: Completed request 1
+[27-Jul-2022 05:12:20 UTC] BLOCK: Importing request 2 ..
+[27-Jul-2022 05:12:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[27-Jul-2022 05:12:20 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[27-Jul-2022 05:12:20 UTC] BLOCK: Completed request 2
+[27-Jul-2022 05:12:20 UTC] BLOCK: Importing request 3 ..
+[27-Jul-2022 05:12:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[27-Jul-2022 05:12:20 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[27-Jul-2022 05:12:20 UTC] BLOCK: Completed request 3
+[27-Jul-2022 05:12:20 UTC] BLOCK: Importing request 4 ..
+[27-Jul-2022 05:12:20 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[27-Jul-2022 05:12:21 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[27-Jul-2022 05:12:21 UTC] BLOCK: Completed request 4
+[27-Jul-2022 05:12:21 UTC] SITE: Getting Total Sites
+[27-Jul-2022 05:12:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[27-Jul-2022 05:12:21 UTC] SITE: Request count 2
+[27-Jul-2022 05:12:21 UTC] SITE: Importing request 1 ..
+[27-Jul-2022 05:12:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[27-Jul-2022 05:12:21 UTC] SITE: Storing in option ast-block-templates-sites-1
+[27-Jul-2022 05:12:21 UTC] SITE: Completed request 1
+[27-Jul-2022 05:12:21 UTC] SITE: Importing request 2 ..
+[27-Jul-2022 05:12:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[27-Jul-2022 05:12:21 UTC] SITE: Storing in option ast-block-templates-sites-2
+[27-Jul-2022 05:12:21 UTC] SITE: Completed request 2
+[27-Jul-2022 05:12:21 UTC] Sync process for Gutenberg Blocks is done.
+[28-Jul-2022 00:19:49 UTC] WordPress database error Duplicate column name 'og_image_url' for query ALTER TABLE wp_aioseo_posts ADD og_image_url text DEFAULT NULL AFTER og_image_type made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Updates->runUpdates, AIOSEO\Plugin\Common\Main\Updates->migrateOgTwitterImageColumns, AIOSEO\Plugin\Common\Utils\Database->execute
+[28-Jul-2022 00:19:51 UTC] WordPress database error Unknown column 'og_custom_image_height' in 'wp_aioseo_posts' for query ALTER TABLE wp_aioseo_posts CHANGE COLUMN og_custom_image_height og_image_height int(11) DEFAULT NULL AFTER og_image_url made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Updates->runUpdates, AIOSEO\Plugin\Common\Main\Updates->migrateOgTwitterImageColumns, AIOSEO\Plugin\Common\Utils\Database->execute
+[28-Jul-2022 00:19:54 UTC] WordPress database error Unknown column 'og_custom_image_width' in 'wp_aioseo_posts' for query ALTER TABLE wp_aioseo_posts CHANGE COLUMN og_custom_image_width og_image_width int(11) DEFAULT NULL AFTER og_image_url made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Updates->runUpdates, AIOSEO\Plugin\Common\Main\Updates->migrateOgTwitterImageColumns, AIOSEO\Plugin\Common\Utils\Database->execute
+[28-Jul-2022 00:19:56 UTC] WordPress database error Duplicate column name 'twitter_image_url' for query ALTER TABLE wp_aioseo_posts ADD twitter_image_url text DEFAULT NULL AFTER twitter_image_type made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Updates->runUpdates, AIOSEO\Plugin\Common\Main\Updates->migrateOgTwitterImageColumns, AIOSEO\Plugin\Common\Utils\Database->execute
+[28-Jul-2022 00:19:59 UTC] WordPress database error Duplicate column name 'limit_modified_date' for query ALTER TABLE wp_aioseo_posts
+				ADD limit_modified_date tinyint(1) NOT NULL DEFAULT 0 AFTER local_seo made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Updates->runUpdates, AIOSEO\Plugin\Common\Main\Updates->addLimitModifiedDateColumn, AIOSEO\Plugin\Common\Utils\Database->execute
+[28-Jul-2022 00:20:02 UTC] WordPress database error Duplicate column name 'options' for query ALTER TABLE wp_aioseo_posts
+				ADD `options` longtext DEFAULT NULL AFTER `limit_modified_date` made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Updates->runUpdates, AIOSEO\Plugin\Common\Main\Updates->addOptionsColumn, AIOSEO\Plugin\Common\Utils\Database->execute
+[28-Jul-2022 00:20:04 UTC] WordPress database error Can't DROP 'tabs'; check that column/key exists for query ALTER TABLE wp_aioseo_posts
+				DROP tabs made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Updates->runUpdates, AIOSEO\Plugin\Common\Main\Updates->removeTabsColumn, AIOSEO\Plugin\Common\Utils\Database->execute
+[29-Jul-2022 01:23:00 UTC] PHP Warning:  file_put_contents(/tmp/log.txt): failed to open stream: No such file or directory in C:\Users\althe\Local Sites\firstsite\app\public\wp-content\plugins\easy-appointments\main.php on line 220
+[29-Jul-2022 01:23:00 UTC] PHP Stack trace:
+[29-Jul-2022 01:23:00 UTC] PHP   1. {main}() C:\Users\althe\Local Sites\firstsite\app\public\wp-admin\plugins.php:0
+[29-Jul-2022 01:23:00 UTC] PHP   2. activate_plugin() C:\Users\althe\Local Sites\firstsite\app\public\wp-admin\plugins.php:58
+[29-Jul-2022 01:23:00 UTC] PHP   3. do_action() C:\Users\althe\Local Sites\firstsite\app\public\wp-admin\includes\plugin.php:691
+[29-Jul-2022 01:23:00 UTC] PHP   4. WP_Hook->do_action() C:\Users\althe\Local Sites\firstsite\app\public\wp-includes\plugin.php:476
+[29-Jul-2022 01:23:00 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\althe\Local Sites\firstsite\app\public\wp-includes\class-wp-hook.php:331
+[29-Jul-2022 01:23:00 UTC] PHP   6. EasyAppointment->install() C:\Users\althe\Local Sites\firstsite\app\public\wp-includes\class-wp-hook.php:307
+[29-Jul-2022 01:23:00 UTC] PHP   7. file_put_contents() C:\Users\althe\Local Sites\firstsite\app\public\wp-content\plugins\easy-appointments\main.php:220
+[29-Jul-2022 02:12:17 UTC] Sync process for Gutenberg Blocks has started.
+[29-Jul-2022 02:12:17 UTC] CATEGORY:Importing categories..
+[29-Jul-2022 02:12:18 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[29-Jul-2022 02:12:18 UTC] CATEGORY:Completed category import.
+[29-Jul-2022 02:12:18 UTC] BLOCK: Getting Total Blocks
+[29-Jul-2022 02:12:18 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[29-Jul-2022 02:12:18 UTC] BLOCK: Requests count 4
+[29-Jul-2022 02:12:18 UTC] BLOCK: Importing request 1 ..
+[29-Jul-2022 02:12:18 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[29-Jul-2022 02:12:18 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[29-Jul-2022 02:12:18 UTC] BLOCK: Completed request 1
+[29-Jul-2022 02:12:18 UTC] BLOCK: Importing request 2 ..
+[29-Jul-2022 02:12:18 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[29-Jul-2022 02:12:18 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[29-Jul-2022 02:12:18 UTC] BLOCK: Completed request 2
+[29-Jul-2022 02:12:18 UTC] BLOCK: Importing request 3 ..
+[29-Jul-2022 02:12:18 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[29-Jul-2022 02:12:18 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[29-Jul-2022 02:12:18 UTC] BLOCK: Completed request 3
+[29-Jul-2022 02:12:18 UTC] BLOCK: Importing request 4 ..
+[29-Jul-2022 02:12:18 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[29-Jul-2022 02:12:19 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[29-Jul-2022 02:12:19 UTC] BLOCK: Completed request 4
+[29-Jul-2022 02:12:19 UTC] SITE: Getting Total Sites
+[29-Jul-2022 02:12:19 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[29-Jul-2022 02:12:19 UTC] SITE: Request count 2
+[29-Jul-2022 02:12:19 UTC] SITE: Importing request 1 ..
+[29-Jul-2022 02:12:19 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[29-Jul-2022 02:12:20 UTC] SITE: Storing in option ast-block-templates-sites-1
+[29-Jul-2022 02:12:21 UTC] SITE: Completed request 1
+[29-Jul-2022 02:12:21 UTC] SITE: Importing request 2 ..
+[29-Jul-2022 02:12:21 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[29-Jul-2022 02:12:22 UTC] SITE: Storing in option ast-block-templates-sites-2
+[29-Jul-2022 02:12:22 UTC] SITE: Completed request 2
+[29-Jul-2022 02:12:22 UTC] Sync process for Gutenberg Blocks is done.
+[01-Aug-2022 18:09:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[01-Aug-2022 18:09:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[01-Aug-2022 18:09:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[01-Aug-2022 18:09:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Program Files (x86)/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[01-Aug-2022 18:17:08 UTC] Sync process for Gutenberg Blocks has started.
+[01-Aug-2022 18:17:08 UTC] CATEGORY:Importing categories..
+[01-Aug-2022 18:17:08 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[01-Aug-2022 18:17:08 UTC] CATEGORY:Completed category import.
+[01-Aug-2022 18:17:08 UTC] BLOCK: Getting Total Blocks
+[01-Aug-2022 18:17:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[01-Aug-2022 18:17:08 UTC] BLOCK: Requests count 4
+[01-Aug-2022 18:17:08 UTC] BLOCK: Importing request 1 ..
+[01-Aug-2022 18:17:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[01-Aug-2022 18:17:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[01-Aug-2022 18:17:08 UTC] BLOCK: Completed request 1
+[01-Aug-2022 18:17:08 UTC] BLOCK: Importing request 2 ..
+[01-Aug-2022 18:17:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[01-Aug-2022 18:17:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[01-Aug-2022 18:17:09 UTC] BLOCK: Completed request 2
+[01-Aug-2022 18:17:09 UTC] BLOCK: Importing request 3 ..
+[01-Aug-2022 18:17:09 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[01-Aug-2022 18:17:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[01-Aug-2022 18:17:09 UTC] BLOCK: Completed request 3
+[01-Aug-2022 18:17:09 UTC] BLOCK: Importing request 4 ..
+[01-Aug-2022 18:17:09 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[01-Aug-2022 18:17:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[01-Aug-2022 18:17:09 UTC] BLOCK: Completed request 4
+[01-Aug-2022 18:17:09 UTC] SITE: Getting Total Sites
+[01-Aug-2022 18:17:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[01-Aug-2022 18:17:09 UTC] SITE: Request count 2
+[01-Aug-2022 18:17:09 UTC] SITE: Importing request 1 ..
+[01-Aug-2022 18:17:09 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[01-Aug-2022 18:17:10 UTC] SITE: Storing in option ast-block-templates-sites-1
+[01-Aug-2022 18:17:10 UTC] SITE: Completed request 1
+[01-Aug-2022 18:17:10 UTC] SITE: Importing request 2 ..
+[01-Aug-2022 18:17:10 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[01-Aug-2022 18:17:10 UTC] SITE: Storing in option ast-block-templates-sites-2
+[01-Aug-2022 18:17:10 UTC] SITE: Completed request 2
+[01-Aug-2022 18:17:10 UTC] Sync process for Gutenberg Blocks is done.
